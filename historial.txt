@@ -1,0 +1,79 @@
+[200~ 1  git config --list
+    2  ls
+    3  desktop
+    4  ls desktop
+    5  cd desktop
+    6  mkdir ejemplogit
+    7  cd ejemplogit
+    8  ls
+    9  git init
+   10  cd
+   11  cd ejemplogit
+   12  cd desktop
+   13  cd ejemplogit
+   14  ls -la
+   15  ls
+   16  git commit
+   17  git add hola.txt
+   18  git commit
+   19  cd desktop/ejemplogit
+   20  ls
+   21  cat hola.txt
+   22  cat hola.txt |less
+   23  cat hola.txt |more
+   24  cat hola.txt |less
+   25  git reset
+   26  git add hola.txt
+   27  git reset hola.txt
+   28  git status
+   29  git add hola.txt
+   30  git status
+   31  git reset -m
+   32  git status
+   33  git reset all
+   34  git reset --all
+   35  git reset hola.txt
+   36  git status
+   37  git add -m
+   38  git add -A
+   39  git status
+   40  git reset -a
+   41  git reset --A
+   42  git reset -A
+   43  git status
+   44  git reset hola.txt
+   45  git status
+   46  git add -A
+   47  git status
+   48  git commit -m ejemplo de comit
+   49  git status
+   50  ls
+   51  git log
+   52  touch adios.txt
+   53  ls
+   54  git status
+   55  git add -A
+   56  git status
+   57  git reset adios.txt
+   58  echo mPen >> nombre.txt
+   59  cat nombre.txt
+   60  git status
+   61  git add .
+   62  git status
+   63  git commit -m se agregan adios y nombre
+   64  git log
+   65  echo como estas >> adios.txt
+   66  cat adios.txt
+   67  git status
+   68  git add .
+   69  git commit
+   70  git commit
+   71  git log
+   72  git history
+   73  history
+   74  cd desktop\ejemplogit
+   75  cd desktop/ejmplogit
+   76  ls
+   77  cd desktop
+   78  cd ejemplogit
+   79  history~
