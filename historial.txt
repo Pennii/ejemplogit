@@ -1,4 +1,4 @@
-[200~ 1  git config --list
+   1  git config --list
     2  ls
     3  desktop
     4  ls desktop
@@ -45,7 +45,7 @@
    45  git status
    46  git add -A
    47  git status
-   48  git commit -m ejemplo de comit
+   48  git commit -m "ejemplo de comit"
    49  git status
    50  ls
    51  git log
@@ -60,9 +60,9 @@
    60  git status
    61  git add .
    62  git status
-   63  git commit -m se agregan adios y nombre
+   63  git commit -m "se agregan adios y nombre"
    64  git log
-   65  echo como estas >> adios.txt
+   65  echo "como estas" >> adios.txt
    66  cat adios.txt
    67  git status
    68  git add .
@@ -76,4 +76,142 @@
    76  ls
    77  cd desktop
    78  cd ejemplogit
-   79  history~
+   79  history
+   80  echo " 1  git config --list
+   81      2  ls
+   82      3  desktop
+   83      4  ls desktop
+   84      5  cd desktop
+   85      6  mkdir ejemplogit
+   86      7  cd ejemplogit
+   87      8  ls
+   88      9  git init
+   89     10  cd
+   90     11  cd ejemplogit
+   91     12  cd desktop
+   92     13  cd ejemplogit
+   93     14  ls -la
+   94     15  ls
+   95     16  git commit
+   96     17  git add hola.txt
+   97     18  git commit
+   98     19  cd desktop/ejemplogit
+   99     20  ls
+  100     21  cat hola.txt
+  101     22  cat hola.txt |less
+  102     23  cat hola.txt |more
+  103     24  cat hola.txt |less
+  104     25  git reset
+  105     26  git add hola.txt
+  106     27  git reset hola.txt
+  107     28  git status
+  108     29  git add hola.txt
+  109     30  git status
+  110     31  git reset -m
+  111     32  git status
+  112     33  git reset all
+  113     34  git reset --all
+  114     35  git reset hola.txt
+  115     36  git status
+  116     37  git add -m
+  117     38  git add -A
+  118     39  git status
+  119     40  git reset -a
+  120     41  git reset --A
+  121     42  git reset -A
+  122     43  git status
+  123     44  git reset hola.txt
+  124     45  git status
+  125     46  git add -A
+  126     47  git status
+  127     48  git commit -m "ejemplo de comit"
+  128     49  git status
+  129     50  ls
+  130     51  git log
+  131     52  touch adios.txt
+  132     53  ls
+  133     54  git status
+  134     55  git add -A
+  135     56  git status
+  136     57  git reset adios.txt
+  137     58  echo mPen >> nombre.txt
+  138     59  cat nombre.txt
+  139     60  git status
+  140     61  git add .
+  141     62  git status
+  142     63  git commit -m "se agregan adios y nombre"
+  143     64  git log
+  144     65  echo "como estas" >> adios.txt
+  145     66  cat adios.txt
+  146     67  git status
+  147     68  git add .
+  148     69  git commit
+  149     70  git commit
+  150     71  git log
+  151     72  git history
+  152     73  history
+  153     74  cd desktop\ejemplogit
+  154     75  cd desktop/ejmplogit
+  155     76  ls
+  156     77  cd desktop
+  157     78  cd ejemplogit
+  158     79  history~" >> historial.txt
+  159  git status
+  160  git add .
+  161  git commit -m "se añade el historial del 14/12"
+  162  git status
+  163  remove adiso.txt
+  164  delete adios.txt
+  165  -help
+  166  \help
+  167  git status
+  168   nano adios.txt
+  169  cat adios.txt
+  170  git status
+  171  vi adios.txt
+  172  cat adios.txt
+  173  vi adios.txt
+  174  cat adios.txt
+  175  vi adios.txt
+  176  cat adios.txt
+  177  git status
+  178  git add .
+  179  git reset .
+  180  git status
+  181  git commit -ma "se hace un commit despues de modificar con nano y vi"
+  182  git commit -am "se hace un commit despues de modificar con nano y vi usando -am"
+  183  git status
+  184  git status
+  185  history
+  186  git log
+  187  history
+  188  git log
+  189  cd desktop/ejemplogit
+  190  gitlog
+  191  git log
+  192  nano
+  193  ls
+  194  nano hola.txt
+  195  cat hola.txt
+  196  git status
+  197  git add .
+  198  git commit -m "prueba dos de nano"
+  199  git push origin master
+  200  cd
+  201  cd desktop
+  202  mkdir gatunos
+  203  cd gatunos
+  204  git init
+  205  git remote origin https://github.com/Pennii/Gatunos.git
+  206  git remote add origin https://github.com/Pennii/Gatunos.git
+  207  git pull origin master
+  208  cd ..
+  209  cd ejemplogit
+  210  git remote -v
+  211  git pull origin master
+  212  git status
+  213  git pull origin maste
+  214  git pull origin master
+  215  git restore nombre.txt
+  216  git status
+  217  history
